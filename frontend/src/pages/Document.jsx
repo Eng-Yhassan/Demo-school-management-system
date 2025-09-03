@@ -27,7 +27,7 @@ const Document = () => {
       <Link to="/AddDocument">
         <button className='bg-blue-500  text-white py-4 px-4 text-2xl rounded-lg my-6 '>Add New Document</button>
       </Link>
-      <div className='flex justify-center items-center gap-8'>
+      <div className='flex flex-wrap justify-center items-center gap-8'>
         {data.map((item, index) => (
           <div key={index} className='bg-gray-600 w-52 h-48 py-2 px-2 relative'>
             <img

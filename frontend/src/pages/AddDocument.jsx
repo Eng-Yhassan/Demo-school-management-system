@@ -6,8 +6,8 @@ const AddDocument = () => {
 
     const [document,setDocument] = useState("");
 
-    const formData = new FormData();
     const navigate = useNavigate()
+    const formData = new FormData();
 
     formData.append("newDoc",document);
 
